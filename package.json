@@ -1,0 +1,25 @@
+{
+  "name": "@th507/foobar",
+  "version": "0.0.0",
+  "description": "A test module that demonstrates the quirk of npm@3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/th507/foo-bar.git"
+  },
+  "author": "Jingwei \"John\" Liu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/th507/foo-bar/issues"
+  },
+  "homepage": "https://github.com/th507/foo-bar#readme",
+  "dependencies": {
+    "@th507/bar": "0.0.0"
+  },
+  "devDependencies": {
+    "@th507/foo": "^1.0.0"
+  }
+}
